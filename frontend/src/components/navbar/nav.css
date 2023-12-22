@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+.heading{
+    font-family: 'Croissant One', cursive;
+    font-size: 30px;
+}
+/* Navbar.css */
+.navbar {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+   
+  }
+
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-menu li {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px 16px;
+  }
+  
+  .nav-menu li:hover {
+    text-decoration: underline;
+  }
+  
+  .primaryBtn {
+    background-color: red;
+    margin: auto;
+    color: white;
+    border: none;
+    padding: 4px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block; 
+    height: 100%; 
+  }
+  
+  .primaryBtn:hover {
+    background-color: rgb(213, 19, 19);
+    transition: all 0.25s ease;
+  }
+  
+    .nav-menu {
+      flex-direction: row;
+      margin-top: 20px;
+    }
+   
+  
+    .nav-menu li {
+      margin: 0;
+      margin-bottom: 20px;
+      margin-top: 15px;
+    }
+  
+    .heading {
+      font-size: 20px;
+      padding-top: 15px;
+    }
+  
